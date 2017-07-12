@@ -20,16 +20,16 @@ After cloning the repository, simply launch a local terminal window and traverse
 (Command Prompt in case of Windows/ Terminal in case of Linux). 
 Run the main program by executing the following commands :-
 
-Normal Usage : Pass <N> no. of nodes and <p> probability value.
+Normal Usage : Pass 'N' no. of nodes and 'p' probability value.
 ```
 python Main.py <N> <p>
 ```
-Run the program over intervals of <p> in range [p1,p2] with interval of p1.
+Run the program over intervals of 'p' in range [p1,p2] with interval of 'p1'.
 
 ```
 python Main.py -i <N> <p1> <p2>
 ```
-Run the program for multiple values of <k> for a fixed value of <p>.
+Run the program for multiple values of 'k' for a fixed value of 'p'.
 Values of k are in range [k1, k2]. 
 ```
 python Main.py -k <N> <p> <k1> <k2>
