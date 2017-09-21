@@ -14,7 +14,7 @@ class Main:
         self.N = int(N)
         self.p = float(p)
         self.k = int(k)
-        self.ID = '2021334219'
+        self.ID = ''
         self.d = list(map(int, self.ID))
 
         self.graph = nx.complete_graph(self.N)
